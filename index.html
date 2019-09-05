@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猜数字</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/guess.css">
+</head>
+<body>
+	<div id="con">
+
+		<div id="warp">
+
+			<div id="input-area">
+				<input type="text" id="num">
+			</div>
+
+			<div id="guess-btn">                         <!-- 向下 -->            <!-- 向上-->                   
+				<img id="btnImg" src="img/button.png" onmousedown="downFunc()" onmouseup="upFunc()">
+			</div>                             
+
+		</div>
+
+		<div id="msg">
+			<img id="msgImg" src="img/noPic.png">
+		</div>
+
+		<script type="text/javascript" src="js/guess.js"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+	background-image: url("../img/bg.jpg");
+}
+#con {
+	width: 1000px;
+	height: 740px;
+	margin: 0px auto;
+}
+#warp {
+	background-image: url("../img/main.png");
+	background-size: 766px 574px;
+	width: 766px;
+	margin: 20px auto;
+	padding-top: 300px;
+	float: left;
+	background-repeat: no-repeat;
+}
+#input-area {
+	width: 420px;
+	height: 56px;
+	margin: 0px auto;
+	border: 0px;
+}
+#guess-btn {
+	width: 102px;
+	height: 102px;
+	margin: 43px auto;
+}
+#btnImg {
+	width: 102px;
+	height: 102px;
+}
+#num {
+	width: 420px;
+	height: 56px;
+	text-align: center;
+	font-size: 26px;
+	border: 0px;
+	outline: none;
+}
+#msg {
+	width: 200px;
+	height: 220px;
+	float: right;
+	margin-top: 150px;
+}
+#msgImg {
+	width: 200px;
+	height: 220px;
+}
